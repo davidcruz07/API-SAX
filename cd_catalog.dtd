@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/cd_catalog.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE CATALOG SYSTEM "cd_catalog.dtd">
+
+    <CATALOG>
+    ...
+    </CATALOG>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT CATALOG (CD)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT CD (TITLE,ARTIST,COUNTRY,COMPANY,PRICE,YEAR)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT TITLE (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ARTIST (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT COUNTRY (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT COMPANY (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT PRICE (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT YEAR (#PCDATA)>
